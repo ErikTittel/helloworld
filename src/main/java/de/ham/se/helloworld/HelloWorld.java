@@ -1,5 +1,7 @@
 package de.ham.se.helloworld;
 
+import de.ham.se.capitalizer.Capitalizer;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -7,7 +9,8 @@ public class HelloWorld {
 	}
 
 	public static String getText() {
-		return "Hello World!";
+		Capitalizer c = new Capitalizer("Hello World!");
+		return c.getCapitalizedText();
 	}
 
 }

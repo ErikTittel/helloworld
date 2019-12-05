@@ -10,6 +10,6 @@ public class HelloWorldTest {
 	public void testGetText() {
 		String textToCheck = HelloWorld.getText();
 		
-		assertEquals(textToCheck, "Hello World!");
+		assertEquals("HELLO WORLD!", textToCheck);
 	}
 }
